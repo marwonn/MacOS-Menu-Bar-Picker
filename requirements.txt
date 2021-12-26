@@ -1,0 +1,14 @@
+altgraph==0.17.2
+decorator==5.1.0
+macholib==1.15.2
+modulegraph==0.19.2
+mutagen==1.45.1
+py2app==0.26.1
+pycryptodomex==3.12.0
+pyobjc-core==8.1
+pyobjc-framework-Cocoa==8.1
+rumps==0.3.0
+six==1.16.0
+validators==0.18.2
+websockets==10.1
+yt-dlp==2021.12.1
