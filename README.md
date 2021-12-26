@@ -1,6 +1,6 @@
 # Custom MacOS Menu Bar App with python + rumps
 
-By chance a got to know [rumps](https://github.com/jaredks/rumps) a really fantastic python package for making menu bar apps on MacOS. With this it's really easy to build a small menu bar app that suits one personal needs.
+By chance a got to know [rumps](https://github.com/jaredks/rumps). A really fantastic python package for making menu bar apps on MacOS. With this it's really easy to build a small menu bar app that suits ones personal needs.
 
 <img src="./img/2.png">
 
