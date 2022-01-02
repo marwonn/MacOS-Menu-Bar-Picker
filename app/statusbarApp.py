@@ -2,7 +2,7 @@ import rumps
 import yt_dlp
 import validators
 import json
-import os, subprocess
+import os, subprocess, sys
 
 # rumps.debug_mode(True)
 
@@ -64,6 +64,10 @@ class StatusBarApp(rumps.App):
         else:
             self.last_state = None
             rumps.notification("No updates available.", "", "")
+
+    @rumps.clicked("refresh")
+    def refresh_brew(self, _):
+        os.execl(sys.executable, sys.executable, * sys.argv)
 
 if __name__ == '__main__':
     StatusBarApp().run()
